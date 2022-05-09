@@ -138,10 +138,115 @@
             </StackPanel>
         </Grid>
 
-            <ListBox Grid.Row="2" Background="{x:Null}" BorderBrush="{x:Null}">
+            <ListBox Grid.Row="2" Background="{x:Null}" BorderBrush="{x:Null}" Margin="0,15,5,0">
             <ListBoxItem>
-                
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="705"/>
+                        <ColumnDefinition/>
+                        <ColumnDefinition/>
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition/>
+                        <RowDefinition/>
+                    </Grid.RowDefinitions>
+                    <Label Grid.Row="0" Grid.Column="0" Style="{StaticResource Title}" Content="1. Photograph" Margin="10,0,0,0"/>
+                    <Label Grid.Row="1" Grid.Column="0" Style="{StaticResource SubItem}" Content="Nickelback - Best Of Nickelback Vol.1" Margin="20,0,0,0"/>
+                    <Label Grid.Row="0" Grid.Column="1" Style="{StaticResource Value}"/>
+                    <Label Grid.Row="0" Grid.Column="2" Style="{StaticResource Title}" Content="4:18" />
+
+                </Grid> 
             </ListBoxItem>
-            </ListBox>
+            <ListBoxItem>
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="705"/>
+                        <ColumnDefinition/>
+                        <ColumnDefinition/>
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition/>
+                        <RowDefinition/>
+                    </Grid.RowDefinitions>
+                    <Label Grid.Row="0" Grid.Column="0" Style="{StaticResource Title}" Content="2. How You Remind Me" Margin="10,0,0,0"/>
+                    <Label Grid.Row="1" Grid.Column="0" Style="{StaticResource SubItem}" Content="Nickelback - Best Of Nickelback Vol.1" Margin="20,0,0,0"/>
+                    <Label Grid.Row="0" Grid.Column="1" Style="{StaticResource Value}"/>
+                    <Label Grid.Row="0" Grid.Column="2" Style="{StaticResource Title}" Content="3:43" />
+
+                </Grid>
+            </ListBoxItem>
+            <ListBoxItem>
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="705"/>
+                        <ColumnDefinition/>
+                        <ColumnDefinition/>
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition/>
+                        <RowDefinition/>
+                    </Grid.RowDefinitions>
+                    <Label Grid.Row="0" Grid.Column="0" Style="{StaticResource Title}" Content="3. Burn It To The Ground" Margin="10,0,0,0"/>
+                    <Label Grid.Row="1" Grid.Column="0" Style="{StaticResource SubItem}" Content="Nickelback - Best Of Nickelback Vol.1" Margin="20,0,0,0"/>
+                    <Label Grid.Row="0" Grid.Column="1" Style="{StaticResource Value}"/>
+                    <Label Grid.Row="0" Grid.Column="2" Style="{StaticResource Title}" Content="3:31" />
+
+                </Grid>
+            </ListBoxItem>
+            <ListBoxItem>
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="705"/>
+                        <ColumnDefinition/>
+                        <ColumnDefinition/>
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition/>
+                        <RowDefinition/>
+                    </Grid.RowDefinitions>
+                    <Label Grid.Row="0" Grid.Column="0" Style="{StaticResource Title}" Content="4. Rockstar" Margin="10,0,0,0"/>
+                    <Label Grid.Row="1" Grid.Column="0" Style="{StaticResource SubItem}" Content="Nickelback - Best Of Nickelback Vol.1" Margin="20,0,0,0"/>
+                    <Label Grid.Row="0" Grid.Column="1" Style="{StaticResource Value}"/>
+                    <Label Grid.Row="0" Grid.Column="2" Style="{StaticResource Title}" Content="4:17" />
+
+                </Grid>
+            </ListBoxItem>
+            <ListBoxItem>
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="705"/>
+                        <ColumnDefinition/>
+                        <ColumnDefinition/>
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition/>
+                        <RowDefinition/>
+                    </Grid.RowDefinitions>
+                    <Label Grid.Row="0" Grid.Column="0" Style="{StaticResource Title}" Content="5. Savin Me" Margin="10,0,0,0"/>
+                    <Label Grid.Row="1" Grid.Column="0" Style="{StaticResource SubItem}" Content="Nickelback - Best Of Nickelback Vol.1" Margin="20,0,0,0"/>
+                    <Label Grid.Row="0" Grid.Column="1" Style="{StaticResource Value}"/>
+                    <Label Grid.Row="0" Grid.Column="2" Style="{StaticResource Title}" Content="3:39" />
+
+                </Grid>
+            </ListBoxItem>
+            <ListBoxItem>
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="705"/>
+                        <ColumnDefinition/>
+                        <ColumnDefinition/>
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition/>
+                        <RowDefinition/>
+                    </Grid.RowDefinitions>
+                    <Label Grid.Row="0" Grid.Column="0" Style="{StaticResource Title}" Content="6. Figured You Out" Margin="10,0,0,0"/>
+                    <Label Grid.Row="1" Grid.Column="0" Style="{StaticResource SubItem}" Content="Nickelback - Best Of Nickelback Vol.1" Margin="20,0,0,0"/>
+                    <Label Grid.Row="0" Grid.Column="1" Style="{StaticResource Value}"/>
+                    <Label Grid.Row="0" Grid.Column="2" Style="{StaticResource Title}" Content="3:50" />
+
+                </Grid>
+            </ListBoxItem>
+        </ListBox>
     </Grid>
 </Window>
