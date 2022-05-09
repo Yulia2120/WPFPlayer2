@@ -207,10 +207,10 @@
                     </Grid.RowDefinitions>
                      
                     <Label Grid.Row="0" Grid.Column="1" Style="{StaticResource Title}" Content="4. Rockstar"/>
-                    <Label Grid.Row="1" Grid.Column="1" Style="{StaticResource SubItem}" Content="Nickelback - Best Of Nickelback Vol.1" Margin="10,-5,0,0"/>
+                    <Label Grid.Row="1" Grid.Column="1" Style="{StaticResource SubItem}" Content="Nickelback - Best Of Nickelback Vol.1" Margin="10,-10,0,0"/>
                     <Label Grid.Row="0" Grid.Column="2" Style="{StaticResource Value}"/>
                     <Label Grid.Row="0" Grid.Column="3" Style="{StaticResource Title}" Content="4:17" />
-                    <Image Grid.Row="0" Grid.Column="0" Width="35" Height="35"  Source="images/1.png" Stretch="Fill" Margin="0,0,0,0" />
+                    <Image Grid.Row="0" Grid.Column="0" Width="35" Height="35"  Source="/2.png" Stretch="Fill" />
                 </Grid>
             </ListBoxItem>
             <ListBoxItem>
