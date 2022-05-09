@@ -136,8 +136,12 @@
                     LargeChange="0" Margin="0,5,0,0" Visibility="Visible" 
                     Minimum="1" Value="4" Foreground="#FF959595"/>
             </StackPanel>
-
-
         </Grid>
+
+            <ListBox Grid.Row="2" Background="{x:Null}" BorderBrush="{x:Null}">
+            <ListBoxItem>
+                
+            </ListBoxItem>
+            </ListBox>
     </Grid>
 </Window>
